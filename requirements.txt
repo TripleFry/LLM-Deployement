@@ -1,0 +1,11 @@
+# Use this exact install command on Windows for the CPU-only build:
+# python -m pip install --index-url https://download.pytorch.org/whl/cpu "torch==2.5.1+cpu" "numpy<2" "transformers==4.41.2" "sentencepiece==0.2.0" "fastapi" "uvicorn[standard]" "requests" "protobuf==3.20.3"
+
+fastapi
+uvicorn[standard]
+requests
+torch
+numpy<2
+protobuf==3.20.3
+sentencepiece==0.2.0
+transformers==4.41.2
